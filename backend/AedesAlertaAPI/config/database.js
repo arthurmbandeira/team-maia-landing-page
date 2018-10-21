@@ -2,6 +2,8 @@ module.exports = (mongoose, config) => {
 	const database = mongoose.connection;
 	mongoose.Promise = Promise;
 	mongoose.connect(config.database, {
+		user: 'admin',
+		pass: 'adminetoh',
 		useNewUrlParser: true,
 		useMongoClient: true,
 		promiseLibrary: global.Promise
