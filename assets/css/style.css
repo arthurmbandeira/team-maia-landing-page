@@ -1,0 +1,328 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #0e6177;
+  font-size: 16px; }
+  body p {
+    margin-bottom: 20px; }
+  body ul {
+    margin: 0;
+    padding: 0; }
+    body ul li {
+      list-style-type: none; }
+  body a:hover {
+    text-decoration: none; }
+
+.headline {
+  background-image: url("../img/fundo-topo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .headline .logo {
+    margin: 50px auto 30px; }
+  .headline .headline-text h2 {
+    font-weight: bold;
+    color: #e82929;
+    font-size: 40px; }
+  .headline .headline-text h3 {
+    font-weight: 300;
+    font-size: 20px; }
+  .headline .divider {
+    height: 1px;
+    width: 300px;
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(74, 166, 199, 0)), to(#4aa6c7));
+    background-image: -webkit-linear-gradient(right, rgba(74, 166, 199, 0), #4aa6c7);
+    background-image: -o-linear-gradient(right, rgba(74, 166, 199, 0), #4aa6c7);
+    background-image: linear-gradient(to left, rgba(74, 166, 199, 0), #4aa6c7); }
+  .headline .headline-links h2 {
+    font-size: 16px;
+    margin-top: 20px; }
+  .headline .headline-links ul li {
+    padding: 20px 30px 20px 0; }
+    .headline .headline-links ul li a {
+      padding: 10px 35px 10px 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      border-radius: 50px;
+      color: #fff;
+      font-weight: bold; }
+    .headline .headline-links ul li i {
+      margin: 0;
+      font-size: 23px;
+      font-weight: 300; }
+    .headline .headline-links ul li .icon-links {
+      border-radius: 50%;
+      background-color: #fff;
+      margin-right: 20px;
+      padding: 10px;
+      width: 40px;
+      height: 40px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    .headline .headline-links ul li.link-facebook a {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#00C6FF), to(#0079FF));
+      background-image: -webkit-linear-gradient(top, #00C6FF, #0079FF);
+      background-image: -o-linear-gradient(top, #00C6FF, #0079FF);
+      background-image: linear-gradient(to bottom, #00C6FF, #0079FF); }
+    .headline .headline-links ul li.link-facebook i {
+      color: #00C6FF; }
+    .headline .headline-links ul li.link-whatsapp a {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#4abb12), to(#0ab83b));
+      background-image: -webkit-linear-gradient(top, #4abb12, #0ab83b);
+      background-image: -o-linear-gradient(top, #4abb12, #0ab83b);
+      background-image: linear-gradient(to bottom, #4abb12, #0ab83b); }
+    .headline .headline-links ul li.link-whatsapp i {
+      color: #4abb12; }
+    .headline .headline-links ul li.link-push a {
+      background-image: -webkit-gradient(linear, left top, left bottom, from(#F14F39), to(#CE373D));
+      background-image: -webkit-linear-gradient(top, #F14F39, #CE373D);
+      background-image: -o-linear-gradient(top, #F14F39, #CE373D);
+      background-image: linear-gradient(to bottom, #F14F39, #CE373D); }
+    .headline .headline-links ul li.link-push i {
+      color: #F14F39; }
+  .headline .scroll {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .headline .scroll a img {
+      margin: 120px auto 0; }
+
+.about ul {
+  margin: 80px auto;
+  max-width: 600px; }
+  .about ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .about ul li:nth-of-type(odd) {
+      text-align: right; }
+      .about ul li:nth-of-type(odd) .about-text {
+        margin-right: 30px; }
+    .about ul li:nth-of-type(even) {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse; }
+    .about ul li .about-text h2 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0; }
+    .about ul li .about-text p {
+      font-weight: 300; }
+    .about ul li .about-img {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 280px;
+      flex: 0 0 280px; }
+
+.houses .houses-btn {
+  text-align: center;
+  margin: 50px auto; }
+  .houses .houses-btn a.button {
+    background-color: #00BEF2;
+    padding: 20px 45px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold; }
+  .houses .houses-btn a i {
+    margin: 0 5px; }
+
+footer {
+  padding: 0 0 50px; }
+  footer .divider {
+    height: 1px;
+    width: 100%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    background-color: #d8d8d8;
+    margin-bottom: 50px; }
+  footer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start; }
+    footer ul li a {
+      border-radius: 50%;
+      background-color: #00BEF2;
+      margin-right: 20px;
+      padding: 10px;
+      width: 50px;
+      height: 50px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+    footer ul li i {
+      color: #fff;
+      font-size: 21px; }
+  footer p {
+    color: #999999;
+    font-weight: 300;
+    margin: 0; }
+
+@media (max-width: 1199.98px) and (min-width: 992px) {
+  .headline {
+    background-position: bottom center; }
+    .headline .scroll a img {
+      margin: 60px auto 0; } }
+
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .headline {
+    background-position: bottom center; }
+    .headline .scroll a img {
+      margin: 20px auto 0; } }
+
+@media (max-width: 767.98px) {
+  .headline {
+    background-image: url("../img/fundo-topo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center; }
+    .headline .logo {
+      margin: 30px auto; }
+    .headline .headline-text h2 {
+      font-size: 30px; }
+    .headline .headline-text h3 {
+      font-size: 18px; }
+    .headline .divider {
+      width: 200px; }
+    .headline .headline-links ul {
+      -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+      justify-content: space-between !important; }
+      .headline .headline-links ul li {
+        padding: 20px 0; }
+        .headline .headline-links ul li a {
+          padding: 10px 20px 10px 10px; }
+        .headline .headline-links ul li i {
+          font-size: 19px; }
+        .headline .headline-links ul li .icon-links {
+          margin-right: 15px;
+          padding: 10px;
+          width: 35px;
+          height: 35px; }
+    .headline .scroll {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .headline .scroll a img {
+        margin: 0px auto 0; }
+  .about ul {
+    margin: 30px auto; }
+    .about ul li:nth-of-type(odd) .about-text {
+      margin-right: 0; }
+    .about ul li .about-img {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 240px;
+      flex: 0 0 240px; }
+  footer {
+    padding: 0 0 50px; }
+    footer .row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    footer ul {
+      margin-bottom: 30px; } }
+
+@media (max-width: 575.98px) {
+  .container {
+    padding: 0; }
+  .headline {
+    background-position: bottom center; }
+    .headline .logo {
+      margin: 30px auto; }
+    .headline .headline-text h2 {
+      font-size: 28px; }
+    .headline .headline-text h3 {
+      font-size: 18px; }
+    .headline .divider {
+      width: 240px; }
+    .headline .headline-links ul {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-top: 20px; }
+      .headline .headline-links ul li {
+        padding: 10px 0;
+        width: 240px; }
+        .headline .headline-links ul li:last-of-type {
+          padding-bottom: 0; }
+    .headline .scroll a img {
+      margin: 0 auto; }
+  .about ul {
+    margin: 40px auto; }
+    .about ul li {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse; }
+      .about ul li:nth-of-type(odd) {
+        text-align: right; }
+        .about ul li:nth-of-type(odd) .about-text {
+          margin: 0; }
+      .about ul li:nth-of-type(even) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse; }
+      .about ul li .about-text {
+        margin-bottom: 20px; }
+      .about ul li .about-img {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 200px;
+        flex: 0 0 200px;
+        max-width: 240px; }
+  footer {
+    padding: 0 15px 50px; }
+    footer .container {
+      padding: 0 15px; }
+    footer .row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    footer ul {
+      margin-bottom: 30px; } }
