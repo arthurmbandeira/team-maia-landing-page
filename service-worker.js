@@ -1,11 +1,11 @@
 'use strict';
 
-let CACHE_NAME = 'carro-vendido-1.0.1';
+let CACHE_NAME = 'carro-vendido-1.0.2';
+
 console.log('CACHE_NAME');
 console.log(CACHE_NAME);
 let urlsToCache = [
   '/',
-  '/assets/*',
   '/backend/assets/img/logo-push.jpg',
 ];
 
