@@ -6,7 +6,7 @@ console.log(CACHE_NAME);
 let urlsToCache = [
   '/',
   '/assets/*',
-  '/backend/assets/img/logo-push.png',
+  '/backend/assets/img/logo-push.jpg',
 ];
 
 self.addEventListener('install', function(event) {
@@ -51,6 +51,7 @@ self.addEventListener('fetch', function(event) {
     })
   );
 });
+
 self.addEventListener('push', function(event) {
 	const data = event.data.json();
 	console.log('Got push', data);
