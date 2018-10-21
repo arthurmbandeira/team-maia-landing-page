@@ -5,8 +5,8 @@ global.rootdir = path.resolve(__dirname);
 
 var http = require('http');
 
-const hostname = 'localhost';
-const port = 443;
+const hostname = process.env.HOST || '127.0.0.1';
+const port = process.env.PORT || 3000;
 
 AedesAlertaAPI = require('@AedesAlertaAPI'),
 AedesAlertaServer = http.createServer(AedesAlertaAPI),
