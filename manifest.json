@@ -3,13 +3,13 @@
   "name": "Aedes Alerta",
   "icons": [
     {
-      "src": "/backend/assets/img/logo-push.png",
-      "type": "image/png",
+      "src": "/backend/assets/img/logo-push.jpg",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
-      "src": "/backend/assets/img/logo-push.png",
-      "type": "image/png",
+      "src": "/backend/assets/img/logo-push.jpg",
+      "type": "image/jpg",
       "sizes": "512x512"
     }
   ],
