@@ -2,9 +2,10 @@
   "name": "team-maia-landing-page",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "loader.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "production": "pm2 start loader.js --name backend --watch"
   },
   "repository": {
     "type": "git",
@@ -15,11 +16,32 @@
   "bugs": {
     "url": "https://github.com/arthurmbandeira/team-maia-landing-page/issues"
   },
+  "_moduleAliases": {
+    "@root": ".",
+    "@AedesAlerta": "./backend/AedesAlertaAPI",
+    "@AedesAlertaModels": "./backend/AedesAlertaAPI/app/models",
+    "@AedesAlertaAPI": "./backend/AedesAlertaAPI/config/app.js",
+    "@config": "./backend/AedesAlertaAPI/config/index.js"
+  },
   "homepage": "https://github.com/arthurmbandeira/team-maia-landing-page#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.4.1",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
     "bootstrap": "^4.1.3",
-    "jquery": "^3.3.1"
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "jquery": "^3.3.1",
+    "jsonwebtoken": "^8.3.0",
+    "module-alias": "^2.1.0",
+    "mongoose": "^5.3.4",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "pm2": "^3.2.2",
+    "web-push": "^3.3.3",
+
   },
   "devDependencies": {}
 }

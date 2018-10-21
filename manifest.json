@@ -1,0 +1,21 @@
+{
+  "short_name": "Aedes Alerta",
+  "name": "Aedes Alerta",
+  "icons": [
+    {
+      "src": "/backend/assets/img/logo-push.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/backend/assets/img/logo-push.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  // "background_color": "#053A79",
+  "display": "standalone",
+  "scope": "/"
+  // "theme_color": "#053A79"
+}
