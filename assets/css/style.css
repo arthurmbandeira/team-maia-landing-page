@@ -194,3 +194,135 @@ footer {
     color: #999999;
     font-weight: 300;
     margin: 0; }
+
+@media (max-width: 1199.98px) and (min-width: 992px) {
+  .headline {
+    background-position: bottom center; }
+    .headline .scroll a img {
+      margin: 60px auto 0; } }
+
+@media (max-width: 991.98px) and (min-width: 768px) {
+  .headline {
+    background-position: bottom center; }
+    .headline .scroll a img {
+      margin: 20px auto 0; } }
+
+@media (max-width: 767.98px) {
+  .headline {
+    background-image: url("../img/fundo-topo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center; }
+    .headline .logo {
+      margin: 30px auto; }
+    .headline .headline-text h2 {
+      font-size: 30px; }
+    .headline .headline-text h3 {
+      font-size: 18px; }
+    .headline .divider {
+      width: 200px; }
+    .headline .headline-links ul {
+      -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+      justify-content: space-between !important; }
+      .headline .headline-links ul li {
+        padding: 20px 0; }
+        .headline .headline-links ul li a {
+          padding: 10px 20px 10px 10px; }
+        .headline .headline-links ul li i {
+          font-size: 19px; }
+        .headline .headline-links ul li .icon-links {
+          margin-right: 15px;
+          padding: 10px;
+          width: 35px;
+          height: 35px; }
+    .headline .scroll {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .headline .scroll a img {
+        margin: 0px auto 0; }
+  .about ul {
+    margin: 30px auto; }
+    .about ul li:nth-of-type(odd) .about-text {
+      margin-right: 0; }
+    .about ul li .about-img {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 240px;
+      flex: 0 0 240px; }
+  footer {
+    padding: 0 0 50px; }
+    footer .row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    footer ul {
+      margin-bottom: 30px; } }
+
+@media (max-width: 575.98px) {
+  .container {
+    padding: 0; }
+  .headline {
+    background-position: bottom center; }
+    .headline .logo {
+      margin: 30px auto; }
+    .headline .headline-text h2 {
+      font-size: 28px; }
+    .headline .headline-text h3 {
+      font-size: 18px; }
+    .headline .divider {
+      width: 240px; }
+    .headline .headline-links ul {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      margin-top: 20px; }
+      .headline .headline-links ul li {
+        padding: 10px 0;
+        width: 240px; }
+        .headline .headline-links ul li:last-of-type {
+          padding-bottom: 0; }
+    .headline .scroll a img {
+      margin: 0 auto; }
+  .about ul {
+    margin: 40px auto; }
+    .about ul li {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse; }
+      .about ul li:nth-of-type(odd) {
+        text-align: right; }
+        .about ul li:nth-of-type(odd) .about-text {
+          margin: 0; }
+      .about ul li:nth-of-type(even) {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse; }
+      .about ul li .about-text {
+        margin-bottom: 20px; }
+      .about ul li .about-img {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 200px;
+        flex: 0 0 200px;
+        max-width: 240px; }
+  footer {
+    padding: 0 15px 50px; }
+    footer .container {
+      padding: 0 15px; }
+    footer .row {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+    footer ul {
+      margin-bottom: 30px; } }
